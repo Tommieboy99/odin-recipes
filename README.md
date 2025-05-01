@@ -1,4 +1,4 @@
 #First Project
 
-Dit project is de eerste test van mijn vaardigheden in HTML.
-Als ik klaar ben reflecteer ik via deze wijze op de opdracht
+Testing myself on what I've learned about HTML & CSS.
+I really enjoyed making the webpage and I learned a lot from it.
