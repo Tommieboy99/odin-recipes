@@ -15,6 +15,7 @@ section {
     display: flex;
     background-color: #e29578;
     border-radius: 8px;
+    border: dotted lightpink;
 }
 
 .left-center {
@@ -35,7 +36,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: dotted lightpink;
     border-left: dotted lightpink;
     border-right: dotted lightpink;
 }
@@ -47,7 +47,7 @@ h1 {
 
 p {
     margin: 10px 5px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #f4e9d8;
     text-align: center;
@@ -57,11 +57,11 @@ ul{
     display: flex;
     padding: 0;
     list-style-type: none;
-    gap: 30px;
+    gap: 20px;
     flex-direction: column;
 }
 
-button {
+.button {
     background-color: pink;
     color: lightcoral;
     font-size: 18px;  
@@ -70,9 +70,11 @@ button {
     border: 4px solid lightpink;             
     border-radius: 5px;          
     cursor: pointer;  
+    text-decoration: none;
+    display: flex;
 }
 
-button:hover {
+.button:hover {
     background-color: lightpink;
 }
 
@@ -81,7 +83,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 70px;
 }
 
 .right-under {

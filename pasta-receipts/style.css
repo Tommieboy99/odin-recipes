@@ -1,0 +1,82 @@
+body {
+    background-color: pink;
+    height: 100vh;
+    font-family: serif;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: dark gray;
+}
+
+.pageTitle {
+    background-color: lightcoral;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: dotted lightcoral;
+    border-bottom: 0px solid brown;
+    border-top: 3px solid brown;
+    border-left: 3px solid brown;
+    border-right: 3px solid brown;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 10px 20px;
+}
+
+.allReceipts {
+    display: flex;
+    background-color: lightcoral;
+    max-width: 1500px;
+    border: 3px solid brown;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#creamyPasta,
+#pestoPasta,
+#tomatoPasta {
+    width: 500px;
+}
+
+#creamyIntro,
+#pestoIntro,
+#tomatoIntro {
+    text-align: center;
+    margin-bottom: 10px;
+    height: 109px;
+}
+
+p {
+    margin: 0px;
+}
+
+#creamyPasta {
+    border-right: 1px solid brown;
+}
+
+#pestoPasta {
+    border-right: 1px solid brown;
+}
+
+hr {
+    margin: 0px;
+    width: 500px;
+    border: 0.5px solid brown;
+}
+
+h4 {
+    margin-left: 5px;
+}
+
+.ingredientsList {
+    height: 169px;
+}
